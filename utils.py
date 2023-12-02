@@ -7,3 +7,8 @@ def read_lines_to_char_lists(file_name):
     lines = read_lines_from_file(file_name)
     char_lists = [list(line.strip()) for line in lines]
     return char_lists
+
+def read_lines_to_word_lists(file_name):
+    lines = read_lines_from_file(file_name)
+    char_lists = [list(line.split()) for line in lines]
+    return char_lists
