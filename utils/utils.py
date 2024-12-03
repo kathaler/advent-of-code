@@ -17,3 +17,8 @@ def file_to_list_by_empty_line(file_name):
     with open(file_name, 'r') as f:
         return f.read().split("\n\n")
     return None
+ 
+def file_to_list_by_line(file_name):
+    with open(file_name, 'r') as f:
+        return f.read().splitlines()
+    return None

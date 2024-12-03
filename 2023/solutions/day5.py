@@ -1,4 +1,4 @@
-from utils import *
+from utils.utils import *
 
 def get_conversion_table(m):
     maps = m[1:]

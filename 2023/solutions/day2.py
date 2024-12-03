@@ -1,4 +1,4 @@
-from utils import *
+from utils.utils import *
 
 def is_valid_game(game):
     vals = [12,13,14]

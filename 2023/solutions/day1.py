@@ -1,4 +1,4 @@
-from utils import *
+from utils.utils import *
 
 def get_int_from_word(chars):
     num_words = ("one", "two", "three", "four", "five", "six", "seven", "eight", "nine")

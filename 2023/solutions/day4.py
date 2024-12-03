@@ -1,4 +1,4 @@
-from utils import *
+from utils.utils import *
 
 class Card:
     def __init__(self, card_number, winning_numbers, numbers, copies = 1):
